@@ -1,9 +1,15 @@
 /*
+Problem:
+Reorder the linked list from:
+L0 → L1 → L2 → ... → Ln
+to:
+L0 → Ln → L1 → Ln-1 → L2 → Ln-2 ...
+
 Approach:
 1. Find the middle of the linked list using Slow & Fast pointers.
-2. Split the list into two halves.
+2. Split the linked list into two halves.
 3. Reverse the second half of the list.
-4. Merge both halves alternately to reorder the list.
+4. Merge both halves alternately.
 
 Time Complexity: O(n)
 Space Complexity: O(1)
